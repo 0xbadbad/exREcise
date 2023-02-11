@@ -6,3 +6,8 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+cursive = "0.20.0"
+ncurses = "5.101.0"
+
+[dependencies.compiler-explorer-wrapper]
+path = "../compiler-explorer-wrapper"
